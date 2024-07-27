@@ -16,7 +16,7 @@ def isNarcissist(number):
     return result
 
 number=int(input("Enter a Number: "))
-result=isArmstrong(number)
+result=isNarcissist(number)
 if(result==True):
     print(f"{number } is an Narcissist number")
 else:
