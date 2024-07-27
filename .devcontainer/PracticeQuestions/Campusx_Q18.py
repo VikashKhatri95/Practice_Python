@@ -1,13 +1,10 @@
 #Check for Armstrong number
 def isArmstrong(number):
-    copy_num=tempnum=number
-    sum=count=0
-    while(tempnum>0):
-        tempnum=tempnum//10
-        count=count+1
+    copy_num=number
+    sum=0
     while(number>0):
         temp=number%10
-        sum=sum+temp**count
+        sum=sum+temp**3
         number=number//10
     if(copy_num==sum):
         result=True
