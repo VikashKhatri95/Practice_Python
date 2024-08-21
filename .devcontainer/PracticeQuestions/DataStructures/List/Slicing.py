@@ -11,4 +11,6 @@ for i in numbers:
     print(i)
 
 for index,number in enumerate(numbers):
-    print(index,number)
+    print(f"Index={index} and number= {number}")
+
+
